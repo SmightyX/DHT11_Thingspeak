@@ -65,7 +65,6 @@ void loop()
                              client.print("Content-Type: application/x-www-form-urlencoded\n");
                              client.print("Content-Length: ");
                              client.print(postStr.length());
-                             client.print("\n\n");
                              client.print(postStr);
  
                              Serial.print("Temperature: ");
